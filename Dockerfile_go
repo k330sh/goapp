@@ -1,6 +1,6 @@
 FROM golang:1.11-alpine AS build
 
-MAINTAINER David,sun <k330sh@dshub.cloud>
+MAINTAINER "David,sun <k330sh@dshub.cloud>"
 LABEL "purpose"="Go Application Service Deployment"
 
 WORKDIR /src/
